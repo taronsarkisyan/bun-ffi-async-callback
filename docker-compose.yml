@@ -1,0 +1,12 @@
+services:
+  bun:
+    container_name: bun
+    build:
+      context: .
+      dockerfile: node.dockerfile
+    volumes:
+      - ./Makefile:/var/www/issue/Makefile
+      - ./node_modules:/var/www/issue/node_modules
+      - ./src:/var/www/issue/src
+    restart: unless-stopped
+    tty: true

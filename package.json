@@ -1,0 +1,14 @@
+{
+  "author": "Taron Sarkisyan",
+  "name": "bun-fii-lanmbda-issue",
+  "description": "Bun FFI lambda issue",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "src/script.ts",
+  "scripts": {
+    "start": "src/script.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10"
+  }
+}
